@@ -1,0 +1,12 @@
+{
+  "puppet_task_version": 1,
+  "supports_noop": false,
+  "description": "Update puppet.conf to remove server, add server_list",
+  "input_method": "environment",
+  "parameters": {
+    "server_list": {
+      "description": "List of servers to set server_list to",
+      "type": "String"
+    }
+  }
+}
